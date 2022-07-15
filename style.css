@@ -19,7 +19,7 @@ body {
 }
 
 .banner {
-    background-image: url(images/banner.png);
+    background-image: url(media/images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 15%;
@@ -58,6 +58,7 @@ body {
     font-weight: 400;
     color: #707070;
     padding: 18px 0 0;
+    line-height: 1.5em;
 }
 
 .blog img {
@@ -68,7 +69,7 @@ body {
     margin-bottom: 80px;
 }
 
-.singleBlog div:first-child {
+.singleBlog .leftHalf:first-child {
     width: 90%;
     margin-right: 10%;
 }
